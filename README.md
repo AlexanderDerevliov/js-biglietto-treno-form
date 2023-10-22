@@ -1,7 +1,11 @@
 # dati #
 
-- Il numero di chilometri da percorrere
-- Età del passeggero
+- chiediamo all'utente il suo nome e cognome
+
+- Chiediamo all'utente i km che deve percorrere
+
+- Chiediamo all'utente la sua età
+
 
 # logica #
 calcolare il prezzo totale del biglietto di viaggio, secondo in questo modo:
@@ -11,6 +15,12 @@ calcolare il prezzo totale del biglietto di viaggio, secondo in questo modo:
 - va applicato uno sconto del 20% per i minorenni
 
 - va applicato uno sconto del 40% per gli over 65.
+
+# risultato #
+
+generare la risposta in base ai dati e alla logica
+
+
 
 # obiettivo #
 

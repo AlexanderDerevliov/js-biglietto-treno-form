@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,12 +11,43 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
+
 <body>
 
-    
-    
+    <!-- form -->
+    <div>
+        <h1>Calcola il prezzo del tuo biglietto</h1>
+
+        <div>
+            <!-- asking uer name -->
+            <label for="user-name">Nome e cognome</label>
+            <input type="text" name="" id="user-name" />
+
+            <!-- how many kilometers-->
+            <label for="kilometers">Kilometri da percorrere</label>
+            <input type="number" name="" id="kilometers">
+
+            <!-- età utente -->
+            <label for="user-age">Scrivi la tua età</label>
+            <input type="number" name="" id="user-age">
+        </div>
+        <div>
+            <button id="submit">Calcola</button>
+            <button id="delete">Cancella</button>
+        </div>
+    </div>
+
+    <!--/form -->
+
+    <!-- risultato -->
+
+    <div>
+        <h2 id="name"></h2>
+        <p id="result"></p>
+    </div>
 
 
     <script src="js/script.js"></script>
 </body>
+
 </html>
