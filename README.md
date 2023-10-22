@@ -16,9 +16,26 @@ calcolare il prezzo totale del biglietto di viaggio, secondo in questo modo:
 
 - va applicato uno sconto del 40% per gli over 65.
 
+-aggiungere i valori
+
+# al click #
+
+- generare il risultato su submit
+- cancellare tutto su delete
+
 # risultato #
 
-generare la risposta in base ai dati e alla logica
+-generare la risposta in base ai dati e alla logica
+
+
+
+
+
+
+
+
+
+
 
 
 
