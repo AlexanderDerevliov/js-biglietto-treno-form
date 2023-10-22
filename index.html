@@ -15,23 +15,30 @@
 <body>
 
     <!-- form -->
-    <div>
-        <h1>Calcola il prezzo del tuo biglietto</h1>
+    <div class="ms_wrapper text-center mt-3 p-3">
 
-        <div>
+        <img src="foto/freccia rossa.png" alt="">
+
+        <div class="ms_title p-0 mt-3">
+            <h1>Calcola il prezzo del tuo biglietto</h1>
+
+        </div>
+        
+
+        <div class="ms_form text-start d-flex flex-column">
             <!-- asking uer name -->
-            <label for="user-name">Nome e cognome</label>
-            <input type="text" name="" id="user-name" />
+            <label for="user-name"></label>
+            <input type="text" name="" id="user-name" placeholder="Nome e cognome"/>
 
             <!-- how many kilometers-->
-            <label for="kilometers">Kilometri da percorrere</label>
-            <input type="number" name="" id="kilometers">
+            <label for="kilometers"></label>
+            <input type="number" name="" id="kilometers" placeholder="Km">
 
             <!-- età utente -->
-            <label for="user-age">Scrivi la tua età</label>
-            <input type="number" name="" id="user-age">
+            <label for="user-age"></label>
+            <input type="number" name="" id="user-age" placeholder="Età del passeggero">
         </div>
-        <div>
+        <div class="ms_btn" >
             <button id="submit">Calcola</button>
             <button id="delete">Cancella</button>
         </div>
@@ -40,12 +47,15 @@
     <!--/form -->
 
     <!-- risultato -->
-
-    <div>
+ <div class="ms_wrapper-result mt-2">
+    <div class="ms_result text-center">
         <h2 id="name"></h2>
+        <p id="totalPrice"></p>
+        <p id="discount"></p>
         <p id="result"></p>
     </div>
-
+ </div>
+  
 
     <script src="js/script.js"></script>
 </body>

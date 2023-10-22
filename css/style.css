@@ -1,2 +1,77 @@
  
- body {background-color: aqua;}
+ /* COMMON */
+
+ img { max-width: 100%;}
+ 
+ input:focus-visible {
+    outline: none;
+ }
+
+/* MAIN WRAPPER */
+.ms_wrapper {
+    width: 80%;
+    margin: 0 auto;
+    background-image: url(../foto/freccia-background.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    
+}
+
+.ms_title {
+    background-color: red;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+/* FORM STYLE */
+.ms_form {
+    width: 50%;
+    margin: 0 auto;
+    color: rgb(255, 28, 28);
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.ms_form input {
+    margin: .5rem 0;
+}
+/* BUTTONS STYLE */
+#submit{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#submit:hover {
+    background-color: rgb(160, 40, 40);
+}
+
+#delete{
+    background-color: white;
+    color: red;
+    border: 1px solid  rgb(160, 154, 154);
+    border-radius: 5px;
+}
+
+#delete:hover {
+    background-color: rgb(160, 154, 154);
+}
+
+/* MAIN TICKET RESULT */
+.ms_wrapper-result {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(142, 7, 7);
+    border-radius: 10px;
+}
+
+/* SPECIFIC RESULT */
+.ms_result {
+    width: 50%;
+    margin: 0 auto;
+    color: rgb(28, 2, 2); 
+    font-weight: bold;
+    font-size: 1.5rem;
+}
